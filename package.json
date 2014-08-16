@@ -1,0 +1,12 @@
+{
+  "name": "document-export",
+  "version": "0.0.1",
+  "description": "Generator plugin that tests getDocumentPixmap",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marekhrabe/document-export"
+  },
+  "license": "MIT",
+  "author": "Marek Hrabe <marekhrabe@abdoc.net> (https://github.com/marekhrabe)"
+}
