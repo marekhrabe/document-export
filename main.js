@@ -3,7 +3,7 @@ var path = require('path');
 module.exports.init = function (generator) {
   generator.evaluateJSXString('app.activeDocument.id').then(function (id) {
     if (id) {
-      generator.getDocumentPixmap(id, {}).then(function (pixmap) {
+      generator.getDocumentPixmap(id).then(function (pixmap) {
         generator.savePixmap(pixmap, path.resolve('document-pixmap.png'), {
           format: 'png',
           ppi: 72,
